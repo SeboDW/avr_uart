@@ -14,6 +14,8 @@ DESCRIPTION:
 #include <avr/interrupt.h>
 #include <avr/pgmspace.h>
 
+#define F_CPU 16000000UL
+
 #include "uart.h"
 
 
